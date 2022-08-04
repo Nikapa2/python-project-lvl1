@@ -4,6 +4,7 @@ install: #установка зависимостей
 
 brain-games: #запуск игры
 	poetry run brain-games
+	poetry run brain-even
 
 build: #сборка
 	poetry build
