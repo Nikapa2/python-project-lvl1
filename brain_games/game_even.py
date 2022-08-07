@@ -2,9 +2,20 @@ from random import randint
 import prompt
 
 
-def even_number():
+def welcome_user():
+    print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, ,{name}!')
+    return name
+
+def win_string():
+    print(f'Congratulations, {name}!')
+
+def loss_string():
+    print(f'Let\'s try again, {name}')
+    
+def even_number():
+    welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     count = 0
     win_answer = 3
@@ -19,7 +30,7 @@ def even_number():
             print('Correct!')
             count += 1
         elif odd_num and user_answer.lower() == "yes":
-            return print(f'"yes" is wrong answer ;(. Correct answer was "no"\nLet\'s try again, {name}')
+            return print(f'"yes" is wrong answer ;(. Correct answer was "no"\n{loss_string}')
         elif even_num and user_answer.lower() == "no":
-            return print(f'"no" is wrong answer ;(. Correct answer was "yes"\nLet\'s try again, {name}')
-    print(f'Congratulations, {name}!')
+            return print(f'"no" is wrong answer ;(. Correct answer was "yes"\n{loss_string}')
+    win_string()

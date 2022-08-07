@@ -4,5 +4,8 @@
 <a href="https://codeclimate.com/github/Nikapa2/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/919021e884d2f43d8e26/maintainability" /></a>
 =======
 
+# Первая игра brain-even
 https://asciinema.org/a/cW8qoUbDpxp5FhsycLmshsuaP
->>>>>>> b6ae26e (add README.md)
+
+# Вторая игрв Calc
+https://asciinema.org/connect/0547badd-299a-46cf-a64e-d64db254ca9b

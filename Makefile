@@ -4,8 +4,13 @@ install: #установка зависимостей
 
 brain-games: #запуск игры
 	poetry run brain-games
+
+brain-even: #чётные числа 1 игра
 	poetry run brain-even
 
+brain-calc: #калькулятор 2 игра
+	poetry run brain-calc
+	
 build: #сборка
 	poetry build
 

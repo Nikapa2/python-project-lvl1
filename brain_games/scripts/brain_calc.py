@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
-from brain_games.games.game import even_number
+from brain_games.games.game import calc
 
 
 def main():
-    even_number()
+    calc()
 
 
 if __name__ == '__main__':
     main()
+    
