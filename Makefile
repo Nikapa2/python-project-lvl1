@@ -10,6 +10,9 @@ brain-even: #чётные числа 1 игра
 
 brain-calc: #калькулятор 2 игра
 	poetry run brain-calc
+
+brain-gcd: # НОД 3 игра
+	poetry run brain-gcd
 	
 build: #сборка
 	poetry build

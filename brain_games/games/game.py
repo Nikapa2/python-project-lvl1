@@ -1,5 +1,6 @@
 from random import randint, choice
 import prompt
+from math import gcd
 
 
 def welcome_user():
@@ -7,7 +8,8 @@ def welcome_user():
     name = prompt.string('May I have your name? ')
     print(f'Hello, ,{name}!')
     return name
-    
+
+
 def even_number():
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -29,6 +31,7 @@ def even_number():
             return print(f'"no" is wrong answer ;(. Correct answer was "yes"\nLet\'s try again, {name}')
     print(f'Congratulations, {name}!')
 
+
 def calc():
 
     name = welcome_user()
@@ -48,4 +51,23 @@ def calc():
         else:
             return print(f'{user_answer} is wrong answer ;(. Correct answer was {answer}\nLet\'s try again, {name}')
 
+    print(f'Congratulations, {name}!')
+
+
+def game_gcd():
+    name = welcome_user()
+    print('Find the greatest common divisor of given numbers.')
+    count = 0
+    win_answer = 3
+    while count < win_answer:
+        rand_num1 = randint(1, 100)
+        rand_num2 = randint(1, 100)
+        answer = str(gcd(rand_num1, rand_num2))
+        print(f"Question: {rand_num1}  {rand_num2}")
+        user_answer = prompt.string("Your answer: ")
+        if user_answer == answer:
+            print('Correct!')
+            count += 1
+        else:
+            return print(f'{user_answer} is wrong answer ;(. Correct answer was {answer}\nLet\'s try again, {name}')
     print(f'Congratulations, {name}!')

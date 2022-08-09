@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug  7 23:37:31 2022
+# Make data base, printed on Mon Aug  8 22:44:31 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ PATH = /home/fregl/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2/b
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-a5e56865-1ffd-4270-86f4-ee5b04893613.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-66e76f35-f924-4589-aefa-89452c87e49e.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -63,7 +63,7 @@ PWD = /home/fregl/python-project-lvl1
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/1225_interop
+WSL_INTEROP = /run/WSL/12_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -138,8 +138,10 @@ LANG = C
 TERM = xterm-256color
 # environment
 WSL_DISTRO_NAME = Ubuntu
+# environment
+MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=63/1024=6%, Rehash=0, Collisions=4/88=5%
+# Load=64/1024=6%, Rehash=0, Collisions=4/89=4%
 
 # Pattern-specific Variable Values
 
@@ -173,7 +175,6 @@ all:
 
 brain-games:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 6):
@@ -250,6 +251,6 @@ install:
 # strcache performance: lookups = 39 / hit rate = 30%
 # hash-table stats:
 # Load=27/8192=0%, Rehash=0, Collisions=1/39=3%
-# Finished Make data base on Sun Aug  7 23:37:31 2022
+# Finished Make data base on Mon Aug  8 22:44:31 2022
 
  

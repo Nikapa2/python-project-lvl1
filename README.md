@@ -9,3 +9,6 @@ https://asciinema.org/a/cW8qoUbDpxp5FhsycLmshsuaP
 
 # Вторая игрв Calc
 https://asciinema.org/connect/0547badd-299a-46cf-a64e-d64db254ca9b
+
+# Третья игра GCD
+https://asciinema.org/a/gQaEuNVDD88dnR1dDATT5SS5Q
