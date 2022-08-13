@@ -12,3 +12,6 @@ https://asciinema.org/connect/0547badd-299a-46cf-a64e-d64db254ca9b
 
 # Третья игра GCD
 https://asciinema.org/a/gQaEuNVDD88dnR1dDATT5SS5Q
+
+# Четвёртая игра progression
+https://asciinema.org/a/D8ZolsIxx72N1cNX1E2szuh2V

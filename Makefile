@@ -13,7 +13,10 @@ brain-calc: #калькулятор 2 игра
 
 brain-gcd: # НОД 3 игра
 	poetry run brain-gcd
-	
+
+brain-progression: #прогрессия 4 игра 
+	poetry run brain-progression
+
 build: #сборка
 	poetry build
 

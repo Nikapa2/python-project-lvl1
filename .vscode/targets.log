@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug  8 22:44:31 2022
+# Make data base, printed on Sat Aug 13 21:03:03 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ PATH = /home/fregl/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2/b
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-66e76f35-f924-4589-aefa-89452c87e49e.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-fe7ea0bd-f255-40b6-8f96-30e3938c99a6.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -163,7 +163,7 @@ package-install:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 21):
+#  recipe to execute (from 'Makefile', line 24):
 	python3 -m pip install --user dist/hexlet_code-0.1.0-py3-none-any.whl
 
 # Not a target:
@@ -172,6 +172,14 @@ all:
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
+
+brain-gcd:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 15):
+	poetry run brain-gcd
+	
 
 brain-games:
 #  Implicit rule search has not been done.
@@ -183,7 +191,7 @@ brain-games:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-07 22:31:37.6881679
+#  Last modified 2022-08-09 22:38:57.0490422
 #  File has been updated.
 #  Successfully updated.
 
@@ -191,7 +199,7 @@ build:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 15):
+#  recipe to execute (from 'Makefile', line 18):
 	poetry build
 
 brain-calc:
@@ -200,7 +208,6 @@ brain-calc:
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 12):
 	poetry run brain-calc
-	
 
 # Not a target:
 .DEFAULT:
@@ -219,14 +226,14 @@ publish:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 18):
+#  recipe to execute (from 'Makefile', line 21):
 	poetry publish --dry-run
 
 lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 24):
+#  recipe to execute (from 'Makefile', line 27):
 	poetry run flake8 brain_games
 
 install:
@@ -238,19 +245,19 @@ install:
 	poetry add prompt
 
 # files hash-table stats:
-# Load=12/1024=1%, Rehash=0, Collisions=0/22=0%
+# Load=13/1024=1%, Rehash=0, Collisions=0/23=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 248 B / avg = 9 B
-# current buf: size = 8162 B / used = 248 B / count = 27 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 258 B / avg = 9 B
+# current buf: size = 8162 B / used = 258 B / count = 28 / avg = 9 B
 
-# strcache performance: lookups = 39 / hit rate = 30%
+# strcache performance: lookups = 41 / hit rate = 31%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=1/39=3%
-# Finished Make data base on Mon Aug  8 22:44:31 2022
+# Load=28/8192=0%, Rehash=0, Collisions=1/41=2%
+# Finished Make data base on Sat Aug 13 21:03:03 2022
 
  

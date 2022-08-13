@@ -71,3 +71,32 @@ def game_gcd():
         else:
             return print(f'{user_answer} is wrong answer ;(. Correct answer was {answer}\nLet\'s try again, {name}')
     print(f'Congratulations, {name}!')
+
+
+def progression():
+    name = welcome_user()
+    print('What number is missing in the progression?')
+    count = 0
+    win_answer = 3
+    while (count) < (win_answer):
+        step = randint(1, 5)
+        len_series = randint(5, 10)
+        change_numb = randint(0, len_series)
+        progress = list(range(1, 100, step))
+        series = progress[:len_series]
+        answer = str(series[change_numb - 1])
+        
+        def series_str():
+            series[change_numb - 1] = '..'
+            series_str = [str(a) for a in series]
+            return (" ".join(series_str))
+        quest_ser = series_str()
+        print(f"Question: {quest_ser}")
+        user_answer = prompt.string("Your answer: ")
+        if user_answer == answer:
+            print('Correct!')
+            count += 1
+        else:
+            return print(
+                f'{user_answer} is wrong answer ;(. Correct answer was {answer}\nLet\'s try again, {name}')
+    print(f'Congratulations, {name}!')
