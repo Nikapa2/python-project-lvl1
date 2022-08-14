@@ -85,7 +85,7 @@ def progression():
         progress = list(range(1, 100, step))
         series = progress[:len_series]
         answer = str(series[change_numb - 1])
-        
+
         def series_str():
             series[change_numb - 1] = '..'
             series_str = [str(a) for a in series]
@@ -99,4 +99,31 @@ def progression():
         else:
             return print(
                 f'{user_answer} is wrong answer ;(. Correct answer was {answer}\nLet\'s try again, {name}')
+    print(f'Congratulations, {name}!')
+
+
+def prime_num():
+    name = welcome_user()
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+    count = 0
+    win_answer = 3
+    while count < win_answer:
+        rand_num = randint(2, 100)
+        print(f"Question: {rand_num}")
+        user_answer = prompt.string("Your answer: ")
+
+        def is_prime():
+            for i in range(2, int(rand_num / 2)+1):
+                if rand_num % i == 0:
+                    return False
+            else:
+                return True
+
+        if user_answer.lower() == "yes" and is_prime() == True or user_answer.lower() == "no" and is_prime() == False:
+            print('Correct!')
+            count += 1
+        elif user_answer.lower() == "yes" and is_prime() == False:
+            return print(f'"yes" is wrong answer ;(. Correct answer was "no"\nLet\'s try again, {name}')
+        elif user_answer.lower() == "no" and is_prime() == True:
+            return print(f'"no" is wrong answer ;(. Correct answer was "yes"\nLet\'s try again, {name}')
     print(f'Congratulations, {name}!')

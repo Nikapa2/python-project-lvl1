@@ -15,3 +15,6 @@ https://asciinema.org/a/gQaEuNVDD88dnR1dDATT5SS5Q
 
 # Четвёртая игра progression
 https://asciinema.org/a/D8ZolsIxx72N1cNX1E2szuh2V
+
+# Пятая игра prime
+https://asciinema.org/a/bAvhbx3B35yVpm6BBRkzjUlhR

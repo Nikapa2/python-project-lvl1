@@ -17,6 +17,9 @@ brain-gcd: # НОД 3 игра
 brain-progression: #прогрессия 4 игра 
 	poetry run brain-progression
 
+brain-prime: # простое число 5 игра
+	poetry run brain-prime
+
 build: #сборка
 	poetry build
 

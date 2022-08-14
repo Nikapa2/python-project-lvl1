@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 13 21:03:03 2022
+# Make data base, printed on Sun Aug 14 22:21:49 2022
 
 # Variables
 
@@ -17,7 +17,7 @@ make: *** No rule to make target 'all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = VSCODE_WSL_EXT_LOCATION/up
+WSLENV = VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -31,9 +31,9 @@ CURDIR := /home/fregl/python-project-lvl1
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{"*":"ru"},"_languagePackId":"43ec51574cb76e246bb4bb31d22ca41e.ru","_translationsConfigFile":"/home/fregl/.vscode-server/data/clp/43ec51574cb76e246bb4bb31d22ca41e.ru/tcf.json","_cacheRoot":"/home/fregl/.vscode-server/data/clp/43ec51574cb76e246bb4bb31d22ca41e.ru","_resolvedLanguagePackCoreLocation":"/home/fregl/.vscode-server/data/clp/43ec51574cb76e246bb4bb31d22ca41e.ru/da76f93349a72022ca4670c1b84860304616aaa2","_corruptedFile":"/home/fregl/.vscode-server/data/clp/43ec51574cb76e246bb4bb31d22ca41e.ru/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{"*":"ru"},"_languagePackId":"bb5033a0de544313f5d945d2959de1f0.ru","_translationsConfigFile":"/home/fregl/.vscode-server/data/clp/bb5033a0de544313f5d945d2959de1f0.ru/tcf.json","_cacheRoot":"/home/fregl/.vscode-server/data/clp/bb5033a0de544313f5d945d2959de1f0.ru","_resolvedLanguagePackCoreLocation":"/home/fregl/.vscode-server/data/clp/bb5033a0de544313f5d945d2959de1f0.ru/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/fregl/.vscode-server/data/clp/bb5033a0de544313f5d945d2959de1f0.ru/corrupted.info","_languagePackSupport":true}
 # environment
-_ = /home/fregl/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2/node
+_ = /home/fregl/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # 'override' directive
@@ -47,11 +47,13 @@ VSCODE_CWD = /mnt/d/Users/Фрегл/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/fregl/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2/bin/remote-cli:/home/fregl/.poetry/bin:/home/fregl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Фрегл/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Фрегл/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Фрегл/AppData/Local/Microsoft/WindowsApps:/mnt/d/Users/Фрегл/Microsoft VS Code/bin:/snap/bin
+PATH = /home/fregl/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/remote-cli:/home/fregl/.poetry/bin:/home/fregl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Фрегл/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Фрегл/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Фрегл/AppData/Local/Microsoft/WindowsApps:/mnt/d/Users/Фрегл/Microsoft VS Code/bin:/snap/bin
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-fe7ea0bd-f255-40b6-8f96-30e3938c99a6.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-36511b33-ccb0-4eaf-9c6b-fddba828dd05.sock
+# environment
+VSCODE_SERVER_TAR = /mnt/c/Users/Фрегл/AppData/Local/Temp/vscode-remote-wsl/6d9b74a70ca9c7733b29f0456fd8195364076dda/vscode-server-stable-linux-x64.tar.gz
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -63,7 +65,7 @@ PWD = /home/fregl/python-project-lvl1
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/12_interop
+WSL_INTEROP = /run/WSL/9_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -141,7 +143,7 @@ WSL_DISTRO_NAME = Ubuntu
 # environment
 MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=64/1024=6%, Rehash=0, Collisions=4/89=4%
+# Load=65/1024=6%, Rehash=0, Collisions=4/90=4%
 
 # Pattern-specific Variable Values
 
@@ -163,7 +165,7 @@ package-install:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 24):
+#  recipe to execute (from 'Makefile', line 27):
 	python3 -m pip install --user dist/hexlet_code-0.1.0-py3-none-any.whl
 
 # Not a target:
@@ -179,7 +181,6 @@ brain-gcd:
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 15):
 	poetry run brain-gcd
-	
 
 brain-games:
 #  Implicit rule search has not been done.
@@ -191,7 +192,7 @@ brain-games:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-09 22:38:57.0490422
+#  Last modified 2022-08-13 22:22:54.8346818
 #  File has been updated.
 #  Successfully updated.
 
@@ -199,7 +200,7 @@ build:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 18):
+#  recipe to execute (from 'Makefile', line 21):
 	poetry build
 
 brain-calc:
@@ -226,14 +227,21 @@ publish:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 21):
+#  recipe to execute (from 'Makefile', line 24):
 	poetry publish --dry-run
+
+brain-progression:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 18):
+	poetry run brain-progression
 
 lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 27):
+#  recipe to execute (from 'Makefile', line 30):
 	poetry run flake8 brain_games
 
 install:
@@ -245,19 +253,19 @@ install:
 	poetry add prompt
 
 # files hash-table stats:
-# Load=13/1024=1%, Rehash=0, Collisions=0/23=0%
+# Load=14/1024=1%, Rehash=0, Collisions=0/24=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 28 / storage = 258 B / avg = 9 B
-# current buf: size = 8162 B / used = 258 B / count = 28 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 276 B / avg = 9 B
+# current buf: size = 8162 B / used = 276 B / count = 29 / avg = 9 B
 
-# strcache performance: lookups = 41 / hit rate = 31%
+# strcache performance: lookups = 43 / hit rate = 32%
 # hash-table stats:
-# Load=28/8192=0%, Rehash=0, Collisions=1/41=2%
-# Finished Make data base on Sat Aug 13 21:03:03 2022
+# Load=29/8192=0%, Rehash=0, Collisions=1/43=2%
+# Finished Make data base on Sun Aug 14 22:21:49 2022
 
  
