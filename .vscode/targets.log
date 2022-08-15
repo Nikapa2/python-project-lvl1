@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 14 22:21:49 2022
+# Make data base, printed on Mon Aug 15 22:51:39 2022
 
 # Variables
 
@@ -17,7 +15,7 @@ make: *** No rule to make target 'all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -51,9 +49,7 @@ PATH = /home/fregl/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/b
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-36511b33-ccb0-4eaf-9c6b-fddba828dd05.sock
-# environment
-VSCODE_SERVER_TAR = /mnt/c/Users/Фрегл/AppData/Local/Temp/vscode-remote-wsl/6d9b74a70ca9c7733b29f0456fd8195364076dda/vscode-server-stable-linux-x64.tar.gz
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-379eb73e-4c80-4e82-898e-edb6f772795a.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -65,7 +61,7 @@ PWD = /home/fregl/python-project-lvl1
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/9_interop
+WSL_INTEROP = /run/WSL/12_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -143,7 +139,7 @@ WSL_DISTRO_NAME = Ubuntu
 # environment
 MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=65/1024=6%, Rehash=0, Collisions=4/90=4%
+# Load=64/1024=6%, Rehash=0, Collisions=4/89=4%
 
 # Pattern-specific Variable Values
 
@@ -165,8 +161,15 @@ package-install:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 27):
+#  recipe to execute (from 'Makefile', line 30):
 	python3 -m pip install --user dist/hexlet_code-0.1.0-py3-none-any.whl
+
+brain-prime:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	poetry run brain-prime
 
 # Not a target:
 all:
@@ -192,7 +195,7 @@ brain-games:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-13 22:22:54.8346818
+#  Last modified 2022-08-14 23:02:30.9312925
 #  File has been updated.
 #  Successfully updated.
 
@@ -200,7 +203,7 @@ build:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 21):
+#  recipe to execute (from 'Makefile', line 24):
 	poetry build
 
 brain-calc:
@@ -227,7 +230,7 @@ publish:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 24):
+#  recipe to execute (from 'Makefile', line 27):
 	poetry publish --dry-run
 
 brain-progression:
@@ -241,7 +244,7 @@ lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 30):
+#  recipe to execute (from 'Makefile', line 33):
 	poetry run flake8 brain_games
 
 install:
@@ -253,19 +256,21 @@ install:
 	poetry add prompt
 
 # files hash-table stats:
-# Load=14/1024=1%, Rehash=0, Collisions=0/24=0%
+# Load=15/1024=1%, Rehash=0, Collisions=0/25=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 29 / storage = 276 B / avg = 9 B
-# current buf: size = 8162 B / used = 276 B / count = 29 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 30 / storage = 288 B / avg = 9 B
+# current buf: size = 8162 B / used = 288 B / count = 30 / avg = 9 B
 
-# strcache performance: lookups = 43 / hit rate = 32%
+# strcache performance: lookups = 45 / hit rate = 33%
 # hash-table stats:
-# Load=29/8192=0%, Rehash=0, Collisions=1/43=2%
-# Finished Make data base on Sun Aug 14 22:21:49 2022
+# Load=30/8192=0%, Rehash=0, Collisions=1/45=2%
+# Finished Make data base on Mon Aug 15 22:51:39 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+
