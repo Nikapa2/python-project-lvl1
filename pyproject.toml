@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Приложение для командной строки. Состоит из 5 логических игр: 1 brain-even, 2 brain-calc, 3 brain-gcd, 4 brain-progression, 5 brain-prime"
 packages = [
   { include = "brain_games" },
 ]
 authors = ["Anton Nikitin <palich.nik82@gmail.com>"]
+repository = https://github.com/Nikapa2/python-project-lvl1
 
 [tool.poetry.dependencies]
 python = "^3.8"

@@ -4,6 +4,14 @@
 <a href="https://codeclimate.com/github/Nikapa2/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/919021e884d2f43d8e26/maintainability" /></a>
 =======
 
+Описание:
+ «Игры разума» — набор из пяти консольных игр, представляющих собой математические задания. Каждая игра задает вопросы. После трех правильных ответов считается, что игра пройдена. Неправильный ответ завершают игру и предлагают пройти ее заново. 
+ "Проверка на чётность": предлагается случайное число, если оно чётное - ответ "yes", если нечётное ответ "no".
+ "Калькулятор": предлогается математическое выражение, которое нужно вычислить и записать правильный ответ.
+ "Наибольший общий делитель": предлогаются 2 числа, нужно вычислить и ввести наибольший общий делитель этих чисел.
+ "Арифметическая прогрессия": предлогается ряд чисел, образующий арифметическую прогрессию, одно из них пропущено, нужно определить его и записать правильный ответ.
+ "Простое ли число?": предлагается случайное число, если оно простое - ответ "yes", если составное ответ "no".
+
 # Первая игра brain-even
 https://asciinema.org/a/cW8qoUbDpxp5FhsycLmshsuaP
 
@@ -15,6 +23,8 @@ https://asciinema.org/a/gQaEuNVDD88dnR1dDATT5SS5Q
 
 # Четвёртая игра progression
 https://asciinema.org/a/D8ZolsIxx72N1cNX1E2szuh2V
+<script id="asciicast-D8ZolsIxx72N1cNX1E2szuh2V" src="https://asciinema.org/a/D8ZolsIxx72N1cNX1E2szuh2V.js" async></script>
 
 # Пятая игра prime
 https://asciinema.org/a/bAvhbx3B35yVpm6BBRkzjUlhR
+<script id="asciicast-bAvhbx3B35yVpm6BBRkzjUlhR" src="https://asciinema.org/a/bAvhbx3B35yVpm6BBRkzjUlhR.js" async></script>
