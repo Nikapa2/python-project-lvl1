@@ -7,16 +7,16 @@ WIN_SCORE = 3
 def welcome_user():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print(f'Hello, ,{name}!')
+    print(f'Hello, {name}!')
     return name
 
 
-def engine(game): # game:name game modul.
+def engine(game):  # game:name game modul.
     name = welcome_user()
     print(game.GAME_RULES)
     for i in range(WIN_SCORE):
-        correct_answer, task = game.process_of_game()
-        print(f"Question: {task}")
+        task, correct_answer = game.process_of_game()
+        print("Question: {}".format(task))
         user_answer = prompt.string("Your answer: ")
         if user_answer == correct_answer:
             print('Correct!')
@@ -28,6 +28,5 @@ def engine(game): # game:name game modul.
 
 
 def fail_answer(name, correct_answer, user_answer):
-    name = welcome_user()
-    print(f"{user_answer} is wrong answer ;(. Correct answer was {correct_answer}")
-    print(f"Let\'s try again, {name}!")
+    print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(user_answer, correct_answer))  # noqa: E501
+    print("Let's try again, {0}!".format(name))

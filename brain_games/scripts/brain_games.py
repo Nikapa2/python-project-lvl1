@@ -2,7 +2,7 @@
 
 
 def greet():
-    return(print('Welcome to the Brain Games!'))
+    return (print('Welcome to the Brain Games!'))
 
 
 def main():

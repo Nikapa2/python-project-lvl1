@@ -6,7 +6,7 @@ packages = [
   { include = "brain_games" },
 ]
 authors = ["Anton Nikitin <palich.nik82@gmail.com>"]
-repository = https://github.com/Nikapa2/python-project-lvl1
+repository = "https://github.com/Nikapa2/python-project-lvl1"
 
 [tool.poetry.dependencies]
 python = "^3.8"

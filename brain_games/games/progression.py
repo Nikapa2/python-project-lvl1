@@ -17,7 +17,7 @@ def series_str():
     return (" ".join(series_str))
 
 
-def progression():
+def process_of_game():
     task = series_str()
     correct_answer = str(answer)
     return task, correct_answer
