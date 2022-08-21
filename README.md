@@ -19,7 +19,7 @@
 <script id="asciicast-9RLRJlJ8Kvb2xcaLVZEoTvZzS" src="https://asciinema.org/a/9RLRJlJ8Kvb2xcaLVZEoTvZzS.js" async></script>
 
 # Третья игра GCD
-<script id="asciicast-IyMgy9frGj4lDfKXwtg4fSAfe" src="https://asciinema.org/a/IyMgy9frGj4lDfKXwtg4fSAfe.js" async></script>
+<a href="https://asciinema.org/a/516262" target="_blank"><img src="https://asciinema.org/a/516262.svg" /></a>
 
 # Четвёртая игра progression
 <script id="asciicast-D8ZolsIxx72N1cNX1E2szuh2V" src="https://asciinema.org/a/D8ZolsIxx72N1cNX1E2szuh2V.js" async></script>
