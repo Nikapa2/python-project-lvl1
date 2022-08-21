@@ -13,18 +13,16 @@
  "Простое ли число?": предлагается случайное число, если оно простое - ответ "yes", если составное ответ "no".
 
 # Первая игра brain-even
-https://asciinema.org/a/cW8qoUbDpxp5FhsycLmshsuaP
+<script id="asciicast-Yat5MEgixWnO1Xvacwz6hpY2c" src="https://asciinema.org/a/Yat5MEgixWnO1Xvacwz6hpY2c.js" async></script>
 
 # Вторая игрв Calc
-https://asciinema.org/connect/0547badd-299a-46cf-a64e-d64db254ca9b
+<script id="asciicast-9RLRJlJ8Kvb2xcaLVZEoTvZzS" src="https://asciinema.org/a/9RLRJlJ8Kvb2xcaLVZEoTvZzS.js" async></script>
 
 # Третья игра GCD
-https://asciinema.org/a/gQaEuNVDD88dnR1dDATT5SS5Q
+<script id="asciicast-IyMgy9frGj4lDfKXwtg4fSAfe" src="https://asciinema.org/a/IyMgy9frGj4lDfKXwtg4fSAfe.js" async></script>
 
 # Четвёртая игра progression
-https://asciinema.org/a/D8ZolsIxx72N1cNX1E2szuh2V
 <script id="asciicast-D8ZolsIxx72N1cNX1E2szuh2V" src="https://asciinema.org/a/D8ZolsIxx72N1cNX1E2szuh2V.js" async></script>
 
 # Пятая игра prime
-https://asciinema.org/a/bAvhbx3B35yVpm6BBRkzjUlhR
 <script id="asciicast-bAvhbx3B35yVpm6BBRkzjUlhR" src="https://asciinema.org/a/bAvhbx3B35yVpm6BBRkzjUlhR.js" async></script>
