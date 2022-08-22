@@ -21,6 +21,3 @@ def engine(game):  # game:name game modul.
         break
     else:
         print(f'Congratulations, {name}!')
-
-
-
