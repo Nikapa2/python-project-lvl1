@@ -1,23 +1,22 @@
 from random import randint
 
 
-GAME_RULES = 'What number is missing in the progression?'
+GAME_RULE = 'What number is missing in the progression?'
 
 
 def series_str():
     step = randint(1, 5)
     len_series = randint(5, 10)
-    change_numb = randint(0, len_series)
-    progress = list(range(1, 100, step))
-    series = progress[:len_series]
-    global answer
-    answer = str(series[change_numb - 1])
-    series[change_numb - 1] = '..'
+    random_index = randint(0, len_series)
+    progression = list(range(1, 100, step))
+    series = progression[:len_series]
+    answer = str(series[random_index - 1])
+    series[random_index - 1] = '..'
     series_str = [str(a) for a in series]
-    return (" ".join(series_str))
+    return (" ".join(series_str)), answer
 
 
-def process_of_game():
-    task = series_str()
-    correct_answer = str(answer)
+def take_task_and_answer():
+    task, answer = series_str()
+    correct_answer = answer
     return task, correct_answer

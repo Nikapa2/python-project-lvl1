@@ -1,16 +1,16 @@
 import prompt
 
 
-NUMBER_OF_ROUNDS = 3
+NUMBER_OF_ROUND = 3
 
 
-def engine(game):  # game:name game modul.
+def motion(game):  # game:name game modul.
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.GAME_RULES)
-    for _ in range(NUMBER_OF_ROUNDS):
-        task, correct_answer = game.process_of_game()
+    print(game.GAME_RULE)
+    for _ in range(NUMBER_OF_ROUND):
+        task, correct_answer = game.take_task_and_answer()
         print("Question: {}".format(task))
         user_answer = prompt.string("Your answer: ")
         if user_answer == correct_answer:
