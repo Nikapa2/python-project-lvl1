@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-from brain_games.engine import motion
+from brain_games.engine import run
 from brain_games.games import calc
 
 
 def main():
-    motion(calc)
+    run(calc)
 
 
 if __name__ == '__main__':
