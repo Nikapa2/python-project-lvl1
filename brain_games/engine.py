@@ -16,7 +16,7 @@ def run(game):  # game:name game modul.
         if user_answer == correct_answer:
             print('Correct!')
             continue
-        print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(user_answer, correct_answer))
+        print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(user_answer, correct_answer))  # noqa: E501
         print("Let's try again, {0}!".format(name))
         break
     else:
