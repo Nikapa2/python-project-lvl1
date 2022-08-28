@@ -4,7 +4,7 @@ import prompt
 NUMBER_OF_ROUNDS = 3
 
 
-def run(game):  # game:name game modul.
+def run(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
@@ -16,8 +16,8 @@ def run(game):  # game:name game modul.
         if user_answer == correct_answer:
             print('Correct!')
             continue
-        print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(user_answer, correct_answer))  # noqa: E501
-        print("Let's try again, {0}!".format(name))
+        print(f"{user_answer} is wrong answer ;(. Correct answer was {correct_answer}.")  # noqa: E501
+        print(f"Let's try again, {name}!")
         break
     else:
         print(f'Congratulations, {name}!')

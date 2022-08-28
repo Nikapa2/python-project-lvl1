@@ -1,4 +1,5 @@
 from random import randint
+import math
 
 
 GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
@@ -11,8 +12,10 @@ def take_task_and_answer():
 
 
 def is_prime(number):
-    for i in range(2, int(number / 2) + 1):
-        if number % i == 0 or number < 2:
-            return False
-    else:
-        return True
+    if number >= 2:
+        for i in range(2, int(math.sqrt(number) + 1)):
+            if number % i == 0:
+                return False
+        else:
+            return True
+    return False
