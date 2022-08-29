@@ -13,5 +13,6 @@ def take_task_and_answer():
     correct_answer = str(series[random_index - 1])
     series[random_index - 1] = '..'
     series_str = [str(a) for a in series]
-    random_number = (" ".join(series_str))
+    question = (" ".join(series_str))
+    random_number = question
     return random_number, correct_answer

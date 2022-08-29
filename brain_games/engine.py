@@ -11,12 +11,15 @@ def run(game):
     print(game.GAME_RULE)
     for _ in range(NUMBER_OF_ROUNDS):
         random_number, correct_answer = game.take_task_and_answer()
-        print("Question: {}".format(random_number))
+        print(f"Question: {random_number}")
         user_answer = prompt.string("Your answer: ")
         if user_answer == correct_answer:
             print('Correct!')
             continue
-        print(f"{user_answer} is wrong answer ;(. Correct answer was {correct_answer}.")  # noqa: E501
+        print(
+            f"{user_answer} is wrong answer ;(. "
+            f"Correct answer was {correct_answer}."
+        )
         print(f"Let's try again, {name}!")
         break
     else:
