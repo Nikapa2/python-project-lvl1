@@ -8,10 +8,10 @@ def run(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.GAME_RULE)
+    print(game.RULE)
     for _ in range(NUMBER_OF_ROUNDS):
-        random_number, correct_answer = game.take_task_and_answer()
-        print(f"Question: {random_number}")
+        question, correct_answer = game.take_task_and_answer()
+        print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
         if user_answer == correct_answer:
             print('Correct!')

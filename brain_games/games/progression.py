@@ -1,7 +1,7 @@
 from random import randint
 
 
-GAME_RULE = 'What number is missing in the progression?'
+RULE = 'What number is missing in the progression?'
 
 
 def take_task_and_answer():
@@ -14,5 +14,4 @@ def take_task_and_answer():
     series[random_index - 1] = '..'
     series_str = [str(a) for a in series]
     question = (" ".join(series_str))
-    random_number = question
-    return random_number, correct_answer
+    return question, correct_answer
